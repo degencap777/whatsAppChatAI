@@ -16,3 +16,5 @@ If the program could find the user, your contact can chat with the implemented A
 
 ## License
 This program is licensed under the [GNU General Public License v3.0][license]
+
+_Copyright (C) 2020 by Maurice-Pascal Larivière. All rights reserved_
