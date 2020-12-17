@@ -1,3 +1,7 @@
+[license-shield]: https://img.shields.io/badge/License-GPL3.0-green.svg
+[license]: https://github.com/MauricePascal/WhatsApp-Chat-AI/tree/main/LICENSE
+
+[ ![license-shield][] ][license]
 # WhatsApp-Chat-AI
 Artificial Intelligence for WhatsApp Chats
 
@@ -11,4 +15,4 @@ If you did everything right, there should appear a console with the text ```Type
 If the program could find the user, your contact can chat with the implemented AI ("Artificial Intelligence")
 
 ## License
-This program is licensed under the [GNU General Public License v3.0](https://github.com/MauricePascal/blob/main/LICENSE)
+This program is licensed under the [GNU General Public License v3.0]([license])
