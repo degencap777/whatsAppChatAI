@@ -15,4 +15,4 @@ If you did everything right, there should appear a console with the text ```Type
 If the program could find the user, your contact can chat with the implemented AI ("Artificial Intelligence")
 
 ## License
-This program is licensed under the [GNU General Public License v3.0]([license])
+This program is licensed under the [GNU General Public License v3.0][license]
