@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WhatsApp-Chat-AI</title>
+        <meta name="author" content="MauricePascal">
+        <meta name="author_email" content="maurice@keksstudios.dev">
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>WhatsApp-Chat-AI</h1>
+        <h3>Artificial Intelligence for WhatsApp Chats. <br>Let your WhatsApp contacts chat with an AI</h3>
+
+        <div id="root">
+            <h1>There is nothing to see yet</h1>
+        </div>
+
+    </body>
+    <script>
+        $(document).ready(() => {
+            root = $('#root');
+            docs = $("#docs");
+
+            root.hide();
+            docs.hide();
+
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+
+            if(urlParams.has("field")) {
+                const field = urlParams.get("field");
+                if(field === "root" || field === "home") {
+                    root.show();
+                } else if(field === "docs") {
+                    docs.show()
+                }
+            } else {
+                root.show()
+            }
+        });
+    </script>
+</html>
