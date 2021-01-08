@@ -44,8 +44,8 @@ if __name__ == "__main__":
 
     logged_in = False
     while not logged_in:
-        found = None
-        for x in driver.find_elements_by_class_name("_1PTz1"):
+        found = False
+        for x in driver.find_elements_by_class_name("landing-title"):
             found = True
         if not found:
             logged_in = True
