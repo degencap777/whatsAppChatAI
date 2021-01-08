@@ -131,3 +131,5 @@ dmypy.json
 # PyCharm Files
 .idea/
 /venv
+
+# Test
