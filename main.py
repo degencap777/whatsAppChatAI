@@ -28,7 +28,7 @@ def message_manager(driver, message):
 
 def find_user(driver):
     try:
-        name = input("Who do you want to text? ")
+        name = input("Type your contact name here: ")
 
         user = driver.find_element_by_xpath(f"//span[@title='{name}']")
         user.click()

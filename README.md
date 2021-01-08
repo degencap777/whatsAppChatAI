@@ -3,12 +3,18 @@
 
 [ ![license-shield][] ][license]
 # WhatsApp-Chat-AI
-Artificial Intelligence for WhatsApp Chats
+Artificial Intelligence for WhatsApp Chats. Let your WhatsApp contacts chat with an AI
 
 ## Getting Started
-If you downloaded the program, you can run it with
+If you downloaded the program, you have to download the needed depenencies:
+- numpy
+- nltk
+- tensorflow
+- tflearn
+
+After you installed all the dependencies successfully, you can run the program with the following command
 ```
-$ python3 ./run.py
+$ python ./main.py
 ```
 If you did everything right, there should appear a console with the text ```Type your contact name here: ```
 
