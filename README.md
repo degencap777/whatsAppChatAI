@@ -24,6 +24,6 @@ If the program could find the user, your contact can chat with the implemented A
 This program is licensed under the [GNU General Public License v3.0][license]
 
 ## Notes
-- The AI is currently not working. Generelly is the program not finished yet
+- The AI is currently not working
 
 _Copyright (C) 2020 by Maurice-Pascal Larivière. All rights reserved_

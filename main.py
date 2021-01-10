@@ -19,11 +19,15 @@ def receiver(driver, name):
                 el3 = el2.find_element_by_class_name("_1VzZY")
                 if latest_message == str(el3.text):
                     latest_message = str(el3.text)
+                    message_manager(driver=driver, message=latest_message)
 
 
 def message_manager(driver, message):
-    print(f"New message received: {message.lower()}")
+    message = message.lower()
+    print(f"New message received: {message}")
     print("-" * 100)
+    if message == "hallo":
+        send_message(driver=driver, msg="Hey. Schön dich zu sehen")
 
 
 def find_user(driver):
