@@ -133,4 +133,4 @@ dmypy.json
 /venv
 
 # Models
-.model
+*.model
