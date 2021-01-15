@@ -7,16 +7,20 @@ Artificial Intelligence for WhatsApp Chats. Let your WhatsApp contacts chat with
 
 ## Getting Started
 If you downloaded the program, you have to download the needed depenencies:
+- selenium
 - numpy
 - nltk
-- tensorflow
-- tflearn
+- torch
 
-After you installed all the dependencies successfully, you can run the program with the following command
+After you installed all the dependencies successfully, you have to train the ai
+```
+$ python ./ai/train.py
+```
+Then you have to run the main file with
 ```
 $ python ./main.py
 ```
-If you did everything right, there should appear a console with the text ```Type your contact name here: ```
+If you did everything right, there should open a chrome window with a QR code. Scan this QR code an look in the console. Type the name of the contact who wants to chat with the ai. 
 
 If the program could find the user, your contact can chat with the implemented AI ("Artificial Intelligence")
 
@@ -24,6 +28,6 @@ If the program could find the user, your contact can chat with the implemented A
 This program is licensed under the [GNU General Public License v3.0][license]
 
 ## Notes
-- The AI is currently not working
+- There is currently a problem with the message receiver. Im on it!
 
 _Copyright (C) 2020 by Maurice-Pascal Larivière. All rights reserved_
